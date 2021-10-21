@@ -69,6 +69,7 @@ API.Plugins.clients = {
 							plugin:"organizations",
 							import:{ key:'name', },
 							clickable:{ enable:true, plugin:'organizations', view:'details'},
+							set:{status:1,isActive:"true",isClient:"true"},
 							controls:{
 								toolbar:true,
 								disable:['create'],
